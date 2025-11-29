@@ -42,17 +42,28 @@ app.get("/", (req, res) => {
 
 
 app.get("/request",(req,res)=>{
-  const requestdeatails ={
-    
-  }
+  console.log(req)
+  res.send("Rquest route keep add the syntex  in ur mind  ");
+  const body = req.body;
+
+const ip = req.ip
+const path = req.path
+const protocol = req.protocol
+const hostname = req.hostname
+const method = req.method
+const route = req.route
+
+res.send({
+  headers,body
 })
 
 
 
 
+
+})
+
+
 app.listen(3000, () => {
   console.log("Server started on port 3000");
 });
-              
-
-
