@@ -9,8 +9,7 @@ api design
   handlerfunction = function thata hande the working of a reoute
   expresss route also provide the information or data thata has been recived form the user
   in this request as an object 
-
-
+  
 simialarly whaterever we need to responsd with will also be treated as an object 
 
 req(request)-> information that we receive with a request 
