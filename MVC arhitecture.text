@@ -1,0 +1,34 @@
+1.mvc architecture is a fundamental achitexture  pattern in software
+development that seperates and applicaiton into three interconnected components
+2.this pattern enables seperation of business logic ui logic and input logic
+
+model 
+route 
+controller 
+
+mvc (model view - controller)
+the model represent the data layer of the applicaiton it manges the data logic and rules of 
+applicaitons independent of the ui
+ 
+ responsibility :
+ manage the validation of the data 
+ bussiness logic 
+ implements rules and regulation
+
+ 2. view
+ user interdace and presnetaion 
+ the view handles everthing user see and interact with directely that is routes
+ it consists of all the roites amd wjat paths do theu have  what methods do they have 
+
+ responsibility:
+ display the data to users
+ responds to user requests
+ takes the requests to the handler funcitons 
+ 
+
+
+ 3.controller- apllication logic and coordination 
+
+ logic where we handle the requests where we write the hand;er funciton forl all the routes
+
+ 
