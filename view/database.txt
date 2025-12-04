@@ -1,0 +1,55 @@
+database---->>are stucutred systems for storing , manging and retreiving data efficiently
+
+catagorized based  on how they store the data1
+
+1. relational (sql database)
+2 Non-relational(nosql,database)
+
+Relational dbs  the data in form  of tables (rows and colums) each tables represemt am emitiy 
+(user,product , orders , review) which is related in terms of strucuture.
+
+
+non relational dbs store the data in form of json like formats(bson ) each document is independant and 
+can be changed as per usage there is no  strict schema at the database level
+
+this poses security issus --> for that we ues data modeling on the server level.
+
+
+aspect                                relational                                     non relational
+data modeling                      table with fixed rows and continue                collection containg json
+                                                                                      like documents.
+                                                                                      
+schema                             predefined rigid schema required                   schema less, dynamic strucure 
+                                   before data insertion                              allow data of varing fields
+relationship                       joins (works on keys )                             no joins no keys etc 
+
+query lang                        sql (strucure query language )                      mongodb query language 
+
+scalability                      vertical (increase the server resources )          HOrixentel scaling - creates 
+                                                                                    distributed data cluseter
+
+performance                      excellent    for complex queries                     optimized for high
+                                 slwoer for massive datasets                          speed quering and lesser complex 
+
+use cases                       banking fince texation                                       real time analytics ,iot ,                                                                                        
+                               ecommerce data warehousing                              contenet management , crms 
+
+ cost effectiveness            expenisve                                              
+
+
+
+
+
+
+
+-------schema base strucuture ----
+
+
+
+
+
+
+
+
+
+

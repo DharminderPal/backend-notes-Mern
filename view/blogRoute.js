@@ -8,6 +8,6 @@ const route = express.Router();
 // router.get("/blog",(req,res)=>{
 // res.send("welcme to the blog mangement api ")
 // })
-router.get("/blog")
+router.get("/blog");
 export default router;
 
